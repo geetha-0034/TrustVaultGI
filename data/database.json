@@ -1,0 +1,4214 @@
+{
+  "users": [
+    {
+      "id": "usr-00",
+      "name": "Geetha Inaganti",
+      "email": "geetha03inaganti@gmail.com",
+      "role": "ADMINISTRATOR",
+      "department": "Platform Executive Administration",
+      "status": "ACTIVE",
+      "ownedDocumentsCount": 6,
+      "accessibleDocumentsCount": 20,
+      "lastLogin": "2026-10-25T09:53:55.806Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-01",
+      "name": "Sarah Connor",
+      "email": "sarah.connor@trustvault.internal",
+      "role": "ADMINISTRATOR",
+      "department": "InfoSec Compliance & Governance",
+      "status": "ACTIVE",
+      "ownedDocumentsCount": 4,
+      "accessibleDocumentsCount": 18,
+      "lastLogin": "2026-10-25T10:08:31.945Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-02",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@trustvault.internal",
+      "role": "OWNER",
+      "department": "Security Architecture",
+      "status": "ACTIVE",
+      "ownedDocumentsCount": 6,
+      "accessibleDocumentsCount": 14,
+      "lastLogin": "2026-10-25T10:08:31.972Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-03",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@trustvault.internal",
+      "role": "VIEWER",
+      "department": "External Compliance Auditor",
+      "status": "ACTIVE",
+      "ownedDocumentsCount": 0,
+      "accessibleDocumentsCount": 3,
+      "lastLogin": "2026-10-25T10:08:32.089Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-04",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@trustvault.internal",
+      "role": "VIEWER",
+      "department": "Enterprise Risk & Governance",
+      "status": "ACTIVE",
+      "ownedDocumentsCount": 0,
+      "accessibleDocumentsCount": 2,
+      "lastLogin": "2026-10-25T10:08:31.982Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-05",
+      "name": "James Chen",
+      "email": "james.chen@trustvault.internal",
+      "role": "OWNER",
+      "department": "Corporate Finance & Treasury",
+      "status": "ACTIVE",
+      "ownedDocumentsCount": 5,
+      "accessibleDocumentsCount": 8,
+      "lastLogin": "2026-10-25T10:08:32.074Z",
+      "mfaEnabled": false
+    },
+    {
+      "id": "usr-06",
+      "name": "David Sterling",
+      "email": "david.sterling@trustvault.internal",
+      "role": "VIEWER",
+      "department": "Third-Party Contractor (Offboarded)",
+      "status": "SUSPENDED",
+      "ownedDocumentsCount": 0,
+      "accessibleDocumentsCount": 0,
+      "lastLogin": "2026-10-20T08:00:00Z",
+      "mfaEnabled": false
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1792922912000",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T10:08:32.000Z",
+      "updatedAt": "2026-10-25T10:08:32.098Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792922912000_storage.md"
+    },
+    {
+      "id": "doc-1792922829558",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T10:07:09.558Z",
+      "updatedAt": "2026-10-25T10:07:09.655Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792922829558_storage.md"
+    },
+    {
+      "id": "doc-1792922543833",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T10:02:23.834Z",
+      "updatedAt": "2026-10-25T10:02:23.935Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792922543833_storage.md"
+    },
+    {
+      "id": "doc-1792922310483",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T09:58:30.483Z",
+      "updatedAt": "2026-10-25T09:58:30.578Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792922310483_storage.md"
+    },
+    {
+      "id": "doc-1792921717378",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T09:48:37.379Z",
+      "updatedAt": "2026-10-25T09:48:37.456Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792921717378_storage.md"
+    },
+    {
+      "id": "doc-1792921508896",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T09:45:08.896Z",
+      "updatedAt": "2026-10-25T09:45:08.960Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792921508896_storage.md"
+    },
+    {
+      "id": "doc-1792921217164",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T09:40:17.165Z",
+      "updatedAt": "2026-10-25T09:40:17.242Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792921217164_storage.md"
+    },
+    {
+      "id": "doc-1792920981118",
+      "title": "Q4 Cryptographic Risk Assessment Test Doc",
+      "description": "Test document for automated security verification",
+      "category": "Engineering",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "fileExtension": "md",
+      "sizeBytes": 57,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "userPermission": "OWNER",
+      "activeGrantsCount": 0,
+      "createdAt": "2026-10-25T09:36:21.118Z",
+      "updatedAt": "2026-10-25T09:36:21.237Z",
+      "version": "1.2",
+      "checksum": "sha256:0e818a4e51985c532ad6a8dcdd67ce47261bcc552b60e9d866239f29b8a97f43",
+      "storageFileName": "doc-1792920981118_storage.md"
+    },
+    {
+      "id": "doc-01",
+      "title": "SOC-2 Type II Annual Security Certification & Attestation Report",
+      "description": "Independent auditor attestation report evaluating security, confidentiality, and availability controls.",
+      "category": "Security Audit",
+      "classification": "Restricted",
+      "mimeType": "text/markdown",
+      "sizeBytes": 933,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "activeGrantsCount": 2,
+      "createdAt": "2026-10-15T09:00:00Z",
+      "updatedAt": "2026-10-24T18:15:00Z",
+      "version": "2.4",
+      "checksum": "sha256:1002fb9479bd6d6f830a0ae75183da3735a0aa7c09cfcb6786e55b0341f8bbfb",
+      "fileExtension": "md",
+      "storageFileName": "doc-01_storage.md"
+    },
+    {
+      "id": "doc-02",
+      "title": "Q4 2026 Strategic M&A Capital Allocation & Valuation Model",
+      "description": "Confidential valuation modeling, discounted cash flow calculations, and syndicate financing terms.",
+      "category": "Financial",
+      "classification": "Confidential",
+      "mimeType": "text/markdown",
+      "sizeBytes": 433,
+      "owner": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal"
+      },
+      "activeGrantsCount": 1,
+      "createdAt": "2026-10-18T14:30:00Z",
+      "updatedAt": "2026-10-23T16:00:00Z",
+      "version": "1.1",
+      "checksum": "sha256:0148337d87a46e54ab9dea4a7efa5e936fdd5d2648b8a04b00f9b6248179f134",
+      "fileExtension": "md",
+      "storageFileName": "doc-02_storage.md"
+    },
+    {
+      "id": "doc-03",
+      "title": "Cryptographic Key Management Standard & HSM Rotation Protocol",
+      "description": "Technical standard governing entropy generation, KMS hierarchy, and emergency revocation procedures.",
+      "category": "Engineering",
+      "classification": "Restricted",
+      "mimeType": "text/markdown",
+      "sizeBytes": 442,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "activeGrantsCount": 1,
+      "createdAt": "2026-10-02T10:00:00Z",
+      "updatedAt": "2026-10-21T11:45:00Z",
+      "version": "3.0",
+      "checksum": "sha256:2f38719f14c0928c1bc1d5fb5c43e56d38e56b156dfd07aca5b43d8029fb3d01",
+      "fileExtension": "md",
+      "storageFileName": "doc-03_storage.md"
+    },
+    {
+      "id": "doc-04",
+      "title": "Global Data Protection & Privacy Incident Response Manual",
+      "description": "Standard operating procedure for detecting, investigating, and reporting personal data breaches.",
+      "category": "Legal",
+      "classification": "Internal",
+      "mimeType": "text/markdown",
+      "sizeBytes": 414,
+      "owner": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal"
+      },
+      "activeGrantsCount": 0,
+      "createdAt": "2026-09-12T08:00:00Z",
+      "updatedAt": "2026-10-19T13:20:00Z",
+      "version": "1.8",
+      "checksum": "sha256:444776f189b1b39d1a162eb93329bb3edcf0eced591a6a7d547788b4955dc9c0",
+      "fileExtension": "md",
+      "storageFileName": "doc-04_storage.md"
+    }
+  ],
+  "grants": [
+    {
+      "id": "grant-01",
+      "documentId": "doc-01",
+      "userId": "usr-03",
+      "user": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "department": "External Compliance Auditor",
+        "role": "VIEWER"
+      },
+      "permission": "EDIT",
+      "grantedBy": {
+        "id": "usr-02",
+        "name": "Alex Rivera"
+      },
+      "grantedAt": "2026-10-16T10:00:00Z",
+      "expiresAt": "2026-11-30T23:59:59Z"
+    },
+    {
+      "id": "grant-02",
+      "documentId": "doc-01",
+      "userId": "usr-04",
+      "user": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "department": "Enterprise Risk & Governance",
+        "role": "VIEWER"
+      },
+      "permission": "READ",
+      "grantedBy": {
+        "id": "usr-02",
+        "name": "Alex Rivera"
+      },
+      "grantedAt": "2026-10-17T11:15:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "grant-03",
+      "documentId": "doc-02",
+      "userId": "usr-01",
+      "user": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "department": "InfoSec Compliance & Governance",
+        "role": "ADMINISTRATOR"
+      },
+      "permission": "READ",
+      "grantedBy": {
+        "id": "usr-05",
+        "name": "James Chen"
+      },
+      "grantedAt": "2026-10-19T08:30:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "grant-04",
+      "documentId": "doc-03",
+      "userId": "usr-03",
+      "user": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "department": "External Compliance Auditor",
+        "role": "VIEWER"
+      },
+      "permission": "READ",
+      "grantedBy": {
+        "id": "usr-02",
+        "name": "Alex Rivera"
+      },
+      "grantedAt": "2026-10-18T14:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "auditEvents": [
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792922912156-310",
+      "timestamp": "2026-10-25T10:08:32.156Z",
+      "prevHash": "237b4103d43b1aa37fa48812cd34dc44e8fd6e8683803bba661689b3b299d767",
+      "eventHash": "8f57f1f8be6f46eca5e258f752e2222a713c901b914d30e05038f9351355d1a6"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792922912135-359",
+      "timestamp": "2026-10-25T10:08:32.135Z",
+      "prevHash": "68972ab12d54eba3da062edbb5b6d755159ddccbb820f8b1fc9fd30993ffb611",
+      "eventHash": "237b4103d43b1aa37fa48812cd34dc44e8fd6e8683803bba661689b3b299d767"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922912125-677",
+      "timestamp": "2026-10-25T10:08:32.125Z",
+      "prevHash": "65e59e5efb1e37de8a7026fd1f912d69d108895d564c55516e108e1ef24c26f3",
+      "eventHash": "68972ab12d54eba3da062edbb5b6d755159ddccbb820f8b1fc9fd30993ffb611"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922912117-883",
+      "timestamp": "2026-10-25T10:08:32.117Z",
+      "prevHash": "14b4ce97cb45f0895939f3f2a46a8c75a955f8f357d0921f343ea6f6d8c8c2bc",
+      "eventHash": "65e59e5efb1e37de8a7026fd1f912d69d108895d564c55516e108e1ef24c26f3"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922912114-640",
+      "timestamp": "2026-10-25T10:08:32.114Z",
+      "prevHash": "99a81c882476c20a8b75785195efa342a7bcc8f3074a0a1a967b07ce4750ed76",
+      "eventHash": "14b4ce97cb45f0895939f3f2a46a8c75a955f8f357d0921f343ea6f6d8c8c2bc"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922912109-922",
+      "timestamp": "2026-10-25T10:08:32.109Z",
+      "prevHash": "81bc4c3cd88b30b563220df1d3e7c7dda6e77d5a4842de50a3786613655af136",
+      "eventHash": "99a81c882476c20a8b75785195efa342a7bcc8f3074a0a1a967b07ce4750ed76"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792922912100-448",
+      "timestamp": "2026-10-25T10:08:32.100Z",
+      "prevHash": "1bec552365396ae4a70f43c95dffbb9458dcdca3e3b0270779d44495ee8a7c18",
+      "eventHash": "81bc4c3cd88b30b563220df1d3e7c7dda6e77d5a4842de50a3786613655af136"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922912091-195",
+      "timestamp": "2026-10-25T10:08:32.091Z",
+      "prevHash": "18f5be62c4eb205fca8676033b5d7eff84f23fe6eab2d5c24e37b27ffe0295f8",
+      "eventHash": "1bec552365396ae4a70f43c95dffbb9458dcdca3e3b0270779d44495ee8a7c18"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792922912085-810",
+      "timestamp": "2026-10-25T10:08:32.085Z",
+      "prevHash": "8386052ce0bdb290355dd02ec55f2f3c2b559dfe02339ee07e0289d22ae133ec",
+      "eventHash": "18f5be62c4eb205fca8676033b5d7eff84f23fe6eab2d5c24e37b27ffe0295f8"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792922912080-855",
+      "timestamp": "2026-10-25T10:08:32.080Z",
+      "prevHash": "dc945c1357cfca30d26f4727b7f3183db6b550a795d48b3507a843ca86b9587e",
+      "eventHash": "8386052ce0bdb290355dd02ec55f2f3c2b559dfe02339ee07e0289d22ae133ec"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922912076-758",
+      "timestamp": "2026-10-25T10:08:32.076Z",
+      "prevHash": "63698804fec4662288c879a8bfe12f89c1800fd9a82f68f120e6a565accaacf6",
+      "eventHash": "dc945c1357cfca30d26f4727b7f3183db6b550a795d48b3507a843ca86b9587e"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922912068-869",
+      "timestamp": "2026-10-25T10:08:32.068Z",
+      "prevHash": "09e41011ea14e87903474e680b3256c6ecff737a5d5e871c81543860650162b7",
+      "eventHash": "63698804fec4662288c879a8bfe12f89c1800fd9a82f68f120e6a565accaacf6"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922912064-846",
+      "timestamp": "2026-10-25T10:08:32.064Z",
+      "prevHash": "4a6977afb29ae2487f5ddeb51cdf4878d707aaa6015142319491cdc9b5f585e3",
+      "eventHash": "09e41011ea14e87903474e680b3256c6ecff737a5d5e871c81543860650162b7"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922912055-788",
+      "timestamp": "2026-10-25T10:08:32.055Z",
+      "prevHash": "647111a3633a0a94678e23b08ceeffaf3e38a47abcfa43205b38d7f63d765123",
+      "eventHash": "4a6977afb29ae2487f5ddeb51cdf4878d707aaa6015142319491cdc9b5f585e3"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922912049-634",
+      "timestamp": "2026-10-25T10:08:32.049Z",
+      "prevHash": "802e98b9aed507fff934b0c8b10201b3fe75a237622c9e86cb35c74bc0c364c3",
+      "eventHash": "647111a3633a0a94678e23b08ceeffaf3e38a47abcfa43205b38d7f63d765123"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792922912042-272",
+      "timestamp": "2026-10-25T10:08:32.042Z",
+      "prevHash": "df17b73ea24661e951874a0ae70a41ad324c4a6b60493eea6d27ad9195edd4ec",
+      "eventHash": "802e98b9aed507fff934b0c8b10201b3fe75a237622c9e86cb35c74bc0c364c3"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792922912033-830",
+      "timestamp": "2026-10-25T10:08:32.033Z",
+      "prevHash": "e3812dacefc87d2c1b620e0a64a61121ab1a4a692aa940d3826f42b54c372351",
+      "eventHash": "df17b73ea24661e951874a0ae70a41ad324c4a6b60493eea6d27ad9195edd4ec"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792922912026-791",
+      "timestamp": "2026-10-25T10:08:32.026Z",
+      "prevHash": "cb9966936e01f0d09dc2b1840a533fef8206332950d5bc28958fb710bf6cd5ef",
+      "eventHash": "e3812dacefc87d2c1b620e0a64a61121ab1a4a692aa940d3826f42b54c372351"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792922912020-653",
+      "timestamp": "2026-10-25T10:08:32.020Z",
+      "prevHash": "a856e8541b82bd5f94feb02ed21448663dc1dd1550692ae887bf7c4dc6b593d7",
+      "eventHash": "cb9966936e01f0d09dc2b1840a533fef8206332950d5bc28958fb710bf6cd5ef"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792922912013-233",
+      "timestamp": "2026-10-25T10:08:32.013Z",
+      "prevHash": "b7d90652c14cedccba91e76c222590bf5be141edeaf95a6e3aacaf8a82580886",
+      "eventHash": "a856e8541b82bd5f94feb02ed21448663dc1dd1550692ae887bf7c4dc6b593d7"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922912000",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792922912002-617",
+      "timestamp": "2026-10-25T10:08:32.002Z",
+      "prevHash": "8de9b086ae7a001217ae54ed5e3328c0c380742f8aadaf0253edd24e72caf4af",
+      "eventHash": "b7d90652c14cedccba91e76c222590bf5be141edeaf95a6e3aacaf8a82580886"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922911984-204",
+      "timestamp": "2026-10-25T10:08:31.984Z",
+      "prevHash": "7cc861bc777d17f7019e38f34231ae3f721c37e99f38442849ee408c84adb1ec",
+      "eventHash": "8de9b086ae7a001217ae54ed5e3328c0c380742f8aadaf0253edd24e72caf4af"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922911973-898",
+      "timestamp": "2026-10-25T10:08:31.973Z",
+      "prevHash": "1210b2c9ecfc664550194723994accd66dcd24d335574c21032859abca76530d",
+      "eventHash": "7cc861bc777d17f7019e38f34231ae3f721c37e99f38442849ee408c84adb1ec"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922911947-766",
+      "timestamp": "2026-10-25T10:08:31.947Z",
+      "prevHash": "7f028ee4ad7ddd7d7d45bbb11ac1b7af66732ab5b2b4e60fbd67867b29bc087a",
+      "eventHash": "1210b2c9ecfc664550194723994accd66dcd24d335574c21032859abca76530d"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792922829724-803",
+      "timestamp": "2026-10-25T10:07:09.724Z",
+      "prevHash": "a62c5877ea00f0dda31213027f776d7d2c2b8d16a703624e7d623e5b9634a3c2",
+      "eventHash": "7f028ee4ad7ddd7d7d45bbb11ac1b7af66732ab5b2b4e60fbd67867b29bc087a"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792922829710-377",
+      "timestamp": "2026-10-25T10:07:09.710Z",
+      "prevHash": "6d990bb7e9acc74f471d9c5b2286ba9dae3db689c9d254df8bfa1259ea3239b7",
+      "eventHash": "a62c5877ea00f0dda31213027f776d7d2c2b8d16a703624e7d623e5b9634a3c2"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922829695-813",
+      "timestamp": "2026-10-25T10:07:09.695Z",
+      "prevHash": "d82413322d570b1665bd8545e00f173b9faf0f0a84e879cccd38e0846c799671",
+      "eventHash": "6d990bb7e9acc74f471d9c5b2286ba9dae3db689c9d254df8bfa1259ea3239b7"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922829679-48",
+      "timestamp": "2026-10-25T10:07:09.679Z",
+      "prevHash": "f3659cf500bb719cfa1d6b79a45a9e27c1b712659149eaad17651981750c5dc3",
+      "eventHash": "d82413322d570b1665bd8545e00f173b9faf0f0a84e879cccd38e0846c799671"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922829673-904",
+      "timestamp": "2026-10-25T10:07:09.673Z",
+      "prevHash": "95f53cbd3a3dd6d7dc7aa1a627408a3d081c0d91932cb628768060433a7aa7b5",
+      "eventHash": "f3659cf500bb719cfa1d6b79a45a9e27c1b712659149eaad17651981750c5dc3"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922829665-127",
+      "timestamp": "2026-10-25T10:07:09.665Z",
+      "prevHash": "5d8c051746e89c9fce766c32a18ba19a41f1df9c6ea828808c9e0f4c4a48516e",
+      "eventHash": "95f53cbd3a3dd6d7dc7aa1a627408a3d081c0d91932cb628768060433a7aa7b5"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792922829657-380",
+      "timestamp": "2026-10-25T10:07:09.657Z",
+      "prevHash": "a122a3b0ab7fb8de9450439243ca39a573f6e58a56b26664cdb645ff327b0cbd",
+      "eventHash": "5d8c051746e89c9fce766c32a18ba19a41f1df9c6ea828808c9e0f4c4a48516e"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829650-660",
+      "timestamp": "2026-10-25T10:07:09.650Z",
+      "prevHash": "9c13fbd742bda6923c8c8feb35f37682d474337561bd353362755662d3aef1a9",
+      "eventHash": "a122a3b0ab7fb8de9450439243ca39a573f6e58a56b26664cdb645ff327b0cbd"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792922829643-304",
+      "timestamp": "2026-10-25T10:07:09.643Z",
+      "prevHash": "9739b93f0af153ae5b1f14534b33569262eea5391728e14c91f68e7fc9588366",
+      "eventHash": "9c13fbd742bda6923c8c8feb35f37682d474337561bd353362755662d3aef1a9"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792922829639-763",
+      "timestamp": "2026-10-25T10:07:09.639Z",
+      "prevHash": "af8444af6ff3ef5143705ba01da8cb91e04666ec313656761c32eeaf3fef1583",
+      "eventHash": "9739b93f0af153ae5b1f14534b33569262eea5391728e14c91f68e7fc9588366"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829635-184",
+      "timestamp": "2026-10-25T10:07:09.635Z",
+      "prevHash": "3a207ca7a25440d8ea87693c303b0a96f1b2ea21d85b1a2229b1feaca424d23c",
+      "eventHash": "af8444af6ff3ef5143705ba01da8cb91e04666ec313656761c32eeaf3fef1583"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922829629-760",
+      "timestamp": "2026-10-25T10:07:09.629Z",
+      "prevHash": "ef27c506999ef3bc3112c3ed8ee18e985a4aef7ba0a06e45f117dab2206bc29c",
+      "eventHash": "3a207ca7a25440d8ea87693c303b0a96f1b2ea21d85b1a2229b1feaca424d23c"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829626-345",
+      "timestamp": "2026-10-25T10:07:09.626Z",
+      "prevHash": "0a1fa51f844a23ad1f3663935843a659255a68f9821e478813cd967bbf83257a",
+      "eventHash": "ef27c506999ef3bc3112c3ed8ee18e985a4aef7ba0a06e45f117dab2206bc29c"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922829619-398",
+      "timestamp": "2026-10-25T10:07:09.619Z",
+      "prevHash": "d000f29bc24d6aa0619a51929a6515dcac27db4372310fee60ae056dcf068b99",
+      "eventHash": "0a1fa51f844a23ad1f3663935843a659255a68f9821e478813cd967bbf83257a"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829615-441",
+      "timestamp": "2026-10-25T10:07:09.615Z",
+      "prevHash": "3f6e1c53fec333e0485b751213452c63f7642df813d6bc07fbcd78f4908c4270",
+      "eventHash": "d000f29bc24d6aa0619a51929a6515dcac27db4372310fee60ae056dcf068b99"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792922829607-453",
+      "timestamp": "2026-10-25T10:07:09.607Z",
+      "prevHash": "54e0f2554e68c9c843f4f3007516fe4f59d8a82dafe894e767524e1cd8e35e97",
+      "eventHash": "3f6e1c53fec333e0485b751213452c63f7642df813d6bc07fbcd78f4908c4270"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792922829598-988",
+      "timestamp": "2026-10-25T10:07:09.598Z",
+      "prevHash": "e9dbe37152cb9476461b99208af4b71a59223d8940fddc9a44091d2e04c0216f",
+      "eventHash": "54e0f2554e68c9c843f4f3007516fe4f59d8a82dafe894e767524e1cd8e35e97"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792922829591-259",
+      "timestamp": "2026-10-25T10:07:09.591Z",
+      "prevHash": "6ac426e354af34b9c9dc421b026735d3aac9329e80dc532747a1fc56b2d5e99a",
+      "eventHash": "e9dbe37152cb9476461b99208af4b71a59223d8940fddc9a44091d2e04c0216f"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792922829582-231",
+      "timestamp": "2026-10-25T10:07:09.582Z",
+      "prevHash": "49fdfe35273223b728cc7b28ef25ee2485a602a573e96d9a92455a3d9b383c35",
+      "eventHash": "6ac426e354af34b9c9dc421b026735d3aac9329e80dc532747a1fc56b2d5e99a"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792922829575-159",
+      "timestamp": "2026-10-25T10:07:09.575Z",
+      "prevHash": "6cd17d5c0058c82ad25f60822cf00ceaa4e61e3221d6ed547179fd159a374da6",
+      "eventHash": "49fdfe35273223b728cc7b28ef25ee2485a602a573e96d9a92455a3d9b383c35"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922829558",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792922829559-265",
+      "timestamp": "2026-10-25T10:07:09.559Z",
+      "prevHash": "6cc683ef74424c47c8d8b8ef52ec9798e9c43c88a16750a0cbaaa313004e6a79",
+      "eventHash": "6cd17d5c0058c82ad25f60822cf00ceaa4e61e3221d6ed547179fd159a374da6"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829537-677",
+      "timestamp": "2026-10-25T10:07:09.537Z",
+      "prevHash": "af0e2b82b6bd15e1ebb1b6947855a0e152774bb8fcac9fa67668568e63e03797",
+      "eventHash": "6cc683ef74424c47c8d8b8ef52ec9798e9c43c88a16750a0cbaaa313004e6a79"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829531-74",
+      "timestamp": "2026-10-25T10:07:09.531Z",
+      "prevHash": "725cd1364a7491bba3b5af876aef18ee2500add0ad70a147b57334397ffb0580",
+      "eventHash": "af0e2b82b6bd15e1ebb1b6947855a0e152774bb8fcac9fa67668568e63e03797"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922829514-104",
+      "timestamp": "2026-10-25T10:07:09.514Z",
+      "prevHash": "621884526f3689ff693d6b848108513831831e554e4c69c98c9a34d1eebb2ddc",
+      "eventHash": "725cd1364a7491bba3b5af876aef18ee2500add0ad70a147b57334397ffb0580"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792922543985-134",
+      "timestamp": "2026-10-25T10:02:23.985Z",
+      "prevHash": "b62570083ebd32c1cd05a26c4ec0cffcb66a2ba0c4d3f00dbe1968c0c33be58d",
+      "eventHash": "621884526f3689ff693d6b848108513831831e554e4c69c98c9a34d1eebb2ddc"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792922543973-452",
+      "timestamp": "2026-10-25T10:02:23.973Z",
+      "prevHash": "65882fc3943524c2ea87654bc2bf8b5787b5ded0a82a447aa4e07b43696b95ea",
+      "eventHash": "b62570083ebd32c1cd05a26c4ec0cffcb66a2ba0c4d3f00dbe1968c0c33be58d"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922543958-923",
+      "timestamp": "2026-10-25T10:02:23.958Z",
+      "prevHash": "7939d16276deedc5bca39e8109253d41c85d136a038d59db731f2a289bcd2fa3",
+      "eventHash": "65882fc3943524c2ea87654bc2bf8b5787b5ded0a82a447aa4e07b43696b95ea"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922543951-125",
+      "timestamp": "2026-10-25T10:02:23.951Z",
+      "prevHash": "13d5c4264b36ff66d094962f52295e8475c0003bcd1b4520b8afe32a112d014b",
+      "eventHash": "7939d16276deedc5bca39e8109253d41c85d136a038d59db731f2a289bcd2fa3"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922543948-635",
+      "timestamp": "2026-10-25T10:02:23.948Z",
+      "prevHash": "63c821dea2162db4f082d13736909661bb260b94cd50175a356b1ad87bf0c8a9",
+      "eventHash": "13d5c4264b36ff66d094962f52295e8475c0003bcd1b4520b8afe32a112d014b"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922543945-437",
+      "timestamp": "2026-10-25T10:02:23.945Z",
+      "prevHash": "d3ea245e873c13efd4bb25ec2b5a0879f1c5020609cee61cd3038acf5642bbed",
+      "eventHash": "63c821dea2162db4f082d13736909661bb260b94cd50175a356b1ad87bf0c8a9"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792922543936-755",
+      "timestamp": "2026-10-25T10:02:23.936Z",
+      "prevHash": "1c5543f65c3110998f00410f0f075e977f2dac76952fe9c091fd2240cef0398e",
+      "eventHash": "d3ea245e873c13efd4bb25ec2b5a0879f1c5020609cee61cd3038acf5642bbed"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543931-940",
+      "timestamp": "2026-10-25T10:02:23.931Z",
+      "prevHash": "ea9b1b1750f6bf8f49188769107638e2863eee058c06f52f38a64c37755dcc1c",
+      "eventHash": "1c5543f65c3110998f00410f0f075e977f2dac76952fe9c091fd2240cef0398e"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792922543925-68",
+      "timestamp": "2026-10-25T10:02:23.925Z",
+      "prevHash": "77c7a1b7bd2f3dc093986d0d9675804007109cdfbe20f3a50a72686d86874b34",
+      "eventHash": "ea9b1b1750f6bf8f49188769107638e2863eee058c06f52f38a64c37755dcc1c"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792922543910-911",
+      "timestamp": "2026-10-25T10:02:23.910Z",
+      "prevHash": "d2457dcab234885304c463fc8ef8a37f0c31079392d1926a7d26da8070599c55",
+      "eventHash": "77c7a1b7bd2f3dc093986d0d9675804007109cdfbe20f3a50a72686d86874b34"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543904-397",
+      "timestamp": "2026-10-25T10:02:23.904Z",
+      "prevHash": "67e45cc18d916b8175e3daf98933503aaf81c7d18daf11f058cfea013926d740",
+      "eventHash": "d2457dcab234885304c463fc8ef8a37f0c31079392d1926a7d26da8070599c55"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922543897-728",
+      "timestamp": "2026-10-25T10:02:23.897Z",
+      "prevHash": "013134e4a44de2af86aeb00d25efe8a7f98da6a5bef4683a7eecd9ceb6ee29b7",
+      "eventHash": "67e45cc18d916b8175e3daf98933503aaf81c7d18daf11f058cfea013926d740"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543892-263",
+      "timestamp": "2026-10-25T10:02:23.892Z",
+      "prevHash": "2c4754f9c397e1edd49c10239b314d244daf1ffed082057202b0088406d14218",
+      "eventHash": "013134e4a44de2af86aeb00d25efe8a7f98da6a5bef4683a7eecd9ceb6ee29b7"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922543880-599",
+      "timestamp": "2026-10-25T10:02:23.880Z",
+      "prevHash": "383573c56662477263519d5e3e9c043bd1f02f45b4b0e8d383f930621a10e43e",
+      "eventHash": "2c4754f9c397e1edd49c10239b314d244daf1ffed082057202b0088406d14218"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543876-767",
+      "timestamp": "2026-10-25T10:02:23.876Z",
+      "prevHash": "41891f8be425ccc098388c131540a0dc18aefbd0741c87e11955bf72c0c24d44",
+      "eventHash": "383573c56662477263519d5e3e9c043bd1f02f45b4b0e8d383f930621a10e43e"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792922543869-325",
+      "timestamp": "2026-10-25T10:02:23.869Z",
+      "prevHash": "814873111ce90c3906dca9129afb8fe65392c4c73cd60dbda0f934d21c821d08",
+      "eventHash": "41891f8be425ccc098388c131540a0dc18aefbd0741c87e11955bf72c0c24d44"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792922543862-371",
+      "timestamp": "2026-10-25T10:02:23.862Z",
+      "prevHash": "aa4eeb1fd0ea83c3dea54629628beaac6e1811877f3151d9252cab9a56e8e135",
+      "eventHash": "814873111ce90c3906dca9129afb8fe65392c4c73cd60dbda0f934d21c821d08"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792922543856-825",
+      "timestamp": "2026-10-25T10:02:23.856Z",
+      "prevHash": "cc49a6a3c172f52b612a09239403a6408cb394e51f82505549368899d1628c2c",
+      "eventHash": "aa4eeb1fd0ea83c3dea54629628beaac6e1811877f3151d9252cab9a56e8e135"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792922543851-758",
+      "timestamp": "2026-10-25T10:02:23.851Z",
+      "prevHash": "2c8f87da45af1b2e95c73ec1332ff67e84aa0f4894b63b99b53e9c8bfbc0e0dc",
+      "eventHash": "cc49a6a3c172f52b612a09239403a6408cb394e51f82505549368899d1628c2c"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792922543845-323",
+      "timestamp": "2026-10-25T10:02:23.845Z",
+      "prevHash": "a0df36a2c3f2fa591fe87cfb5b2526df0d4fd338a5f8f24dcec04c2a2a27aa16",
+      "eventHash": "2c8f87da45af1b2e95c73ec1332ff67e84aa0f4894b63b99b53e9c8bfbc0e0dc"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922543833",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792922543835-741",
+      "timestamp": "2026-10-25T10:02:23.835Z",
+      "prevHash": "c89e8763b546ccb52e24a36cb006dbc0546b2b94a29195e9d8f8be2a7af62d05",
+      "eventHash": "a0df36a2c3f2fa591fe87cfb5b2526df0d4fd338a5f8f24dcec04c2a2a27aa16"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543808-422",
+      "timestamp": "2026-10-25T10:02:23.808Z",
+      "prevHash": "a035015ff1f83eaf0dbe437053903594e87bc22ec214ff5bb01ac1c3caae262f",
+      "eventHash": "c89e8763b546ccb52e24a36cb006dbc0546b2b94a29195e9d8f8be2a7af62d05"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543799-333",
+      "timestamp": "2026-10-25T10:02:23.799Z",
+      "prevHash": "97d0fd31d7d998a4e2427e387239dda351d1bd9cfe3f7dc492144a01e13b2e3d",
+      "eventHash": "a035015ff1f83eaf0dbe437053903594e87bc22ec214ff5bb01ac1c3caae262f"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922543776-471",
+      "timestamp": "2026-10-25T10:02:23.776Z",
+      "prevHash": "52397e1bcb222b6ac4b457814e4e69683f06c08e7c52f71087fbba013d0538cf",
+      "eventHash": "97d0fd31d7d998a4e2427e387239dda351d1bd9cfe3f7dc492144a01e13b2e3d"
+    },
+    {
+      "actor": {
+        "id": "usr-00",
+        "name": "Geetha Inaganti",
+        "email": "geetha03inaganti@gmail.com",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGOUT",
+      "result": "ALLOWED",
+      "ipAddress": "2405:201:c000:e0b7:6950:c57a:a7a2:4ba6",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "details": "User session terminated manually.",
+      "id": "evt-1792922480294-713",
+      "timestamp": "2026-10-25T10:01:20.294Z",
+      "prevHash": "baf3012dd5ee66f6e8ab3fbbdbf9e67f02bd282ba5c415a2d13bce3be93d7f19",
+      "eventHash": "52397e1bcb222b6ac4b457814e4e69683f06c08e7c52f71087fbba013d0538cf"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792922310621-586",
+      "timestamp": "2026-10-25T09:58:30.621Z",
+      "prevHash": "a65b4cdf65e3192d752ae49673f19d5478da3e18cd14af9220fc4aaa71d904b0",
+      "eventHash": "baf3012dd5ee66f6e8ab3fbbdbf9e67f02bd282ba5c415a2d13bce3be93d7f19"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792922310609-405",
+      "timestamp": "2026-10-25T09:58:30.609Z",
+      "prevHash": "49581fbedd208dcdab99b3c2a1c2063cbb102854510da9be52dcada25e5b7dbe",
+      "eventHash": "a65b4cdf65e3192d752ae49673f19d5478da3e18cd14af9220fc4aaa71d904b0"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922310599-815",
+      "timestamp": "2026-10-25T09:58:30.599Z",
+      "prevHash": "7241c093c90ff71381ad23818d4abee0e0a57a48f641719fa262dd7e78384671",
+      "eventHash": "49581fbedd208dcdab99b3c2a1c2063cbb102854510da9be52dcada25e5b7dbe"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922310590-775",
+      "timestamp": "2026-10-25T09:58:30.590Z",
+      "prevHash": "398bb444e8b41640bbf4a06b6b58d131dc76903d8d552450727b08c87a1fd735",
+      "eventHash": "7241c093c90ff71381ad23818d4abee0e0a57a48f641719fa262dd7e78384671"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922310587-161",
+      "timestamp": "2026-10-25T09:58:30.587Z",
+      "prevHash": "1c164139c651ae7d5bae73a5d664cc8073190075bd158aa63c7abcbbc6fc5d36",
+      "eventHash": "398bb444e8b41640bbf4a06b6b58d131dc76903d8d552450727b08c87a1fd735"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792922310584-193",
+      "timestamp": "2026-10-25T09:58:30.584Z",
+      "prevHash": "2f87c1191fa03d63d9a7b999147cad86381605e8b9d5946ff5a3e9eb50f80d88",
+      "eventHash": "1c164139c651ae7d5bae73a5d664cc8073190075bd158aa63c7abcbbc6fc5d36"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792922310579-485",
+      "timestamp": "2026-10-25T09:58:30.579Z",
+      "prevHash": "7850c645ff5bba72c5e3fb07582baeec03f19e461393802f082c7247cbbf87f6",
+      "eventHash": "2f87c1191fa03d63d9a7b999147cad86381605e8b9d5946ff5a3e9eb50f80d88"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310558-900",
+      "timestamp": "2026-10-25T09:58:30.558Z",
+      "prevHash": "c4b375e3a9fdc90b16f7a61be93ad28fd5ecafdb8e7f46b9651cee5c724a5ee4",
+      "eventHash": "7850c645ff5bba72c5e3fb07582baeec03f19e461393802f082c7247cbbf87f6"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792922310553-115",
+      "timestamp": "2026-10-25T09:58:30.553Z",
+      "prevHash": "8610cb7d6b87bc904bd4facaea18cf91215ae1fed1b2631bf906fea9d66387a1",
+      "eventHash": "c4b375e3a9fdc90b16f7a61be93ad28fd5ecafdb8e7f46b9651cee5c724a5ee4"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792922310550-406",
+      "timestamp": "2026-10-25T09:58:30.550Z",
+      "prevHash": "76e51915689a5402e4e7de4c2b8f70aee14a2ff326a8402afd4e7fe0443338fa",
+      "eventHash": "8610cb7d6b87bc904bd4facaea18cf91215ae1fed1b2631bf906fea9d66387a1"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310545-541",
+      "timestamp": "2026-10-25T09:58:30.545Z",
+      "prevHash": "751cbc071e36f486111596c7829f7fe9dccc8f6944c1ddca2daa4dd1c8138730",
+      "eventHash": "76e51915689a5402e4e7de4c2b8f70aee14a2ff326a8402afd4e7fe0443338fa"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922310541-704",
+      "timestamp": "2026-10-25T09:58:30.541Z",
+      "prevHash": "10e31a8ae1f704133956825c34dae69bd44b9ca3311885a05e17f6e5ff813cd2",
+      "eventHash": "751cbc071e36f486111596c7829f7fe9dccc8f6944c1ddca2daa4dd1c8138730"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310536-672",
+      "timestamp": "2026-10-25T09:58:30.536Z",
+      "prevHash": "8791d3ea12d4d21411525d4c57b51e3b6a71637b95a409994dc43470297c7db8",
+      "eventHash": "10e31a8ae1f704133956825c34dae69bd44b9ca3311885a05e17f6e5ff813cd2"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792922310530-91",
+      "timestamp": "2026-10-25T09:58:30.530Z",
+      "prevHash": "23aab8827d081ec230e3b846ae072c820fecd87ecf5da5b2febc83d35c5ee118",
+      "eventHash": "8791d3ea12d4d21411525d4c57b51e3b6a71637b95a409994dc43470297c7db8"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310527-902",
+      "timestamp": "2026-10-25T09:58:30.527Z",
+      "prevHash": "26de49859e481b832693a4abfc2394e20eb8b17ce1bf20ed793b387ffbbe37e2",
+      "eventHash": "23aab8827d081ec230e3b846ae072c820fecd87ecf5da5b2febc83d35c5ee118"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792922310522-636",
+      "timestamp": "2026-10-25T09:58:30.522Z",
+      "prevHash": "255845e47f8b083ff71231a3e977843a8e281bb93809217197978ce102bca256",
+      "eventHash": "26de49859e481b832693a4abfc2394e20eb8b17ce1bf20ed793b387ffbbe37e2"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792922310517-131",
+      "timestamp": "2026-10-25T09:58:30.517Z",
+      "prevHash": "aca9ee35038e1e096888a0812c4e875a4cb292a3dd8628708146eb9a42f5d269",
+      "eventHash": "255845e47f8b083ff71231a3e977843a8e281bb93809217197978ce102bca256"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792922310512-491",
+      "timestamp": "2026-10-25T09:58:30.512Z",
+      "prevHash": "1a63bf8f7932d757a74fa0780b4dcefaa8364223f3b47d7c84a8ed362c411f74",
+      "eventHash": "aca9ee35038e1e096888a0812c4e875a4cb292a3dd8628708146eb9a42f5d269"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792922310506-986",
+      "timestamp": "2026-10-25T09:58:30.506Z",
+      "prevHash": "9de784faa4695c9a0f4e41edd2644c8c3325e5f5116c81ccebafa29977800b61",
+      "eventHash": "1a63bf8f7932d757a74fa0780b4dcefaa8364223f3b47d7c84a8ed362c411f74"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792922310498-27",
+      "timestamp": "2026-10-25T09:58:30.498Z",
+      "prevHash": "9a1e2ef41550481b4140ae33cbfc382b19fb4ae1a0d2f4d93f58a38ab1ab03d1",
+      "eventHash": "9de784faa4695c9a0f4e41edd2644c8c3325e5f5116c81ccebafa29977800b61"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792922310483",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792922310484-333",
+      "timestamp": "2026-10-25T09:58:30.484Z",
+      "prevHash": "c84be17c2c5c0dedd8ecbd1326351eb269d08b4825235ce9a71340a326b02239",
+      "eventHash": "9a1e2ef41550481b4140ae33cbfc382b19fb4ae1a0d2f4d93f58a38ab1ab03d1"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310461-929",
+      "timestamp": "2026-10-25T09:58:30.461Z",
+      "prevHash": "8ff56756d7bc150c405263ede7205bb32c50f92532f19d6f2254cac6f43954ab",
+      "eventHash": "c84be17c2c5c0dedd8ecbd1326351eb269d08b4825235ce9a71340a326b02239"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310454-884",
+      "timestamp": "2026-10-25T09:58:30.454Z",
+      "prevHash": "496f86e03423125e71ae117ac0ebe93dedbdd60ae5e50a825639b641f6331692",
+      "eventHash": "8ff56756d7bc150c405263ede7205bb32c50f92532f19d6f2254cac6f43954ab"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922310437-548",
+      "timestamp": "2026-10-25T09:58:30.437Z",
+      "prevHash": "059c2392123352e8e8c189f9832267f69adc98d4d70b583902f18f64c6408974",
+      "eventHash": "496f86e03423125e71ae117ac0ebe93dedbdd60ae5e50a825639b641f6331692"
+    },
+    {
+      "actor": {
+        "id": "usr-00",
+        "name": "Geetha Inaganti",
+        "email": "geetha03inaganti@gmail.com",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "2405:201:c000:e0b7:6950:c57a:a7a2:4ba6",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792922035807-143",
+      "timestamp": "2026-10-25T09:53:55.807Z",
+      "prevHash": "6d1b13bb87a0a3ab0a859349a7355b88e53d376859369feb1ef5129927c1098a",
+      "eventHash": "059c2392123352e8e8c189f9832267f69adc98d4d70b583902f18f64c6408974"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792921717509-281",
+      "timestamp": "2026-10-25T09:48:37.509Z",
+      "prevHash": "8a89e13bb1408fd88342c5f58eae98b45f3c43078add6f76c835778a1a47d44f",
+      "eventHash": "6d1b13bb87a0a3ab0a859349a7355b88e53d376859369feb1ef5129927c1098a"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792921717495-156",
+      "timestamp": "2026-10-25T09:48:37.495Z",
+      "prevHash": "7133eb4aca484d25c31ccc67192aa8764e8d0ca4749546808ced119a183d6ad1",
+      "eventHash": "8a89e13bb1408fd88342c5f58eae98b45f3c43078add6f76c835778a1a47d44f"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792921717486-92",
+      "timestamp": "2026-10-25T09:48:37.486Z",
+      "prevHash": "02842585f220aa36801fe97fb7432372e833e577d90ee189f360349144f156f5",
+      "eventHash": "7133eb4aca484d25c31ccc67192aa8764e8d0ca4749546808ced119a183d6ad1"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921717478-308",
+      "timestamp": "2026-10-25T09:48:37.478Z",
+      "prevHash": "517983116772433782cc0df9f4b34d098f7017a3b55271abe8530f41d2908e76",
+      "eventHash": "02842585f220aa36801fe97fb7432372e833e577d90ee189f360349144f156f5"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921717475-630",
+      "timestamp": "2026-10-25T09:48:37.475Z",
+      "prevHash": "ec4a78c36ed47049137f3f701ed50b5f7324c4640faf434768fd4dbabf232e3b",
+      "eventHash": "517983116772433782cc0df9f4b34d098f7017a3b55271abe8530f41d2908e76"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792921717460-869",
+      "timestamp": "2026-10-25T09:48:37.460Z",
+      "prevHash": "0dc4d04bc697c5ddc64c770cf2860d654a38b3d5e91af72beaf2f709eea5033e",
+      "eventHash": "ec4a78c36ed47049137f3f701ed50b5f7324c4640faf434768fd4dbabf232e3b"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792921717457-519",
+      "timestamp": "2026-10-25T09:48:37.457Z",
+      "prevHash": "7426eda1b099e1e31f377727eed3535660451fe4168f6401c93b155ab52a1fd0",
+      "eventHash": "0dc4d04bc697c5ddc64c770cf2860d654a38b3d5e91af72beaf2f709eea5033e"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717452-197",
+      "timestamp": "2026-10-25T09:48:37.452Z",
+      "prevHash": "62b344581c8b276dba2e1d60b6fa8ebd24688fb4f9ca0bf4e2dd5d829bd79321",
+      "eventHash": "7426eda1b099e1e31f377727eed3535660451fe4168f6401c93b155ab52a1fd0"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792921717447-768",
+      "timestamp": "2026-10-25T09:48:37.447Z",
+      "prevHash": "f31999f5544e4ee21f92f6e97b4f26a3ccd2cf2870b89c4940681c5f105cabf3",
+      "eventHash": "62b344581c8b276dba2e1d60b6fa8ebd24688fb4f9ca0bf4e2dd5d829bd79321"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792921717444-833",
+      "timestamp": "2026-10-25T09:48:37.444Z",
+      "prevHash": "9c3d03f6abf2f136634f1388397cc1f1be2653fa72f08d7735acd7e8e3ec665c",
+      "eventHash": "f31999f5544e4ee21f92f6e97b4f26a3ccd2cf2870b89c4940681c5f105cabf3"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717441-254",
+      "timestamp": "2026-10-25T09:48:37.441Z",
+      "prevHash": "e74994dee451195882f2cc3a51bb7ba675c7d72661e255a298f58ff9966040f2",
+      "eventHash": "9c3d03f6abf2f136634f1388397cc1f1be2653fa72f08d7735acd7e8e3ec665c"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921717437-427",
+      "timestamp": "2026-10-25T09:48:37.437Z",
+      "prevHash": "54fe5c1580a82ff50f03f897f7fe1103a7d82ff1232a2071920c145487ad6a3d",
+      "eventHash": "e74994dee451195882f2cc3a51bb7ba675c7d72661e255a298f58ff9966040f2"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717434-313",
+      "timestamp": "2026-10-25T09:48:37.434Z",
+      "prevHash": "c4a46cbdd9c9b713932c7daf98caca0d46019d76d8873c1f90d545023d4e291a",
+      "eventHash": "54fe5c1580a82ff50f03f897f7fe1103a7d82ff1232a2071920c145487ad6a3d"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921717428-57",
+      "timestamp": "2026-10-25T09:48:37.428Z",
+      "prevHash": "9c2594ea828cd4c1b2dbc8b6e47f21dcec1cbea8d4b774552b242e4cee5b21a2",
+      "eventHash": "c4a46cbdd9c9b713932c7daf98caca0d46019d76d8873c1f90d545023d4e291a"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717424-461",
+      "timestamp": "2026-10-25T09:48:37.424Z",
+      "prevHash": "9c9c34ba839173b083621f371f09d6dd5f947567be226fc357e482b0f3a8b230",
+      "eventHash": "9c2594ea828cd4c1b2dbc8b6e47f21dcec1cbea8d4b774552b242e4cee5b21a2"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792921717418-670",
+      "timestamp": "2026-10-25T09:48:37.418Z",
+      "prevHash": "d00e52c6cd848c12ad2138bc8b521942ecf0fc1684995026430c1762a74e5c2a",
+      "eventHash": "9c9c34ba839173b083621f371f09d6dd5f947567be226fc357e482b0f3a8b230"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792921717410-263",
+      "timestamp": "2026-10-25T09:48:37.410Z",
+      "prevHash": "cc88274374bccd743a5f233c2623de8a42ecf6cc3b069167cd1fa7fe251cebd5",
+      "eventHash": "d00e52c6cd848c12ad2138bc8b521942ecf0fc1684995026430c1762a74e5c2a"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792921717404-270",
+      "timestamp": "2026-10-25T09:48:37.404Z",
+      "prevHash": "e2e23015bcb5cdf4da8711266ade0dd88fb5db178a5e32385b761334771e7b5b",
+      "eventHash": "cc88274374bccd743a5f233c2623de8a42ecf6cc3b069167cd1fa7fe251cebd5"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792921717397-480",
+      "timestamp": "2026-10-25T09:48:37.397Z",
+      "prevHash": "eb58e218b1f14d3f1a1d6947a154dab828f5b13f52dabecc9c906d75d12944a7",
+      "eventHash": "e2e23015bcb5cdf4da8711266ade0dd88fb5db178a5e32385b761334771e7b5b"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792921717390-251",
+      "timestamp": "2026-10-25T09:48:37.390Z",
+      "prevHash": "1304c8fb7d9124108c0243149ce3d7207da7f56f4b449a3a95cb245c3d11f263",
+      "eventHash": "eb58e218b1f14d3f1a1d6947a154dab828f5b13f52dabecc9c906d75d12944a7"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921717378",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792921717379-517",
+      "timestamp": "2026-10-25T09:48:37.379Z",
+      "prevHash": "41690e92b79e76ecdb80d6505e7153028562eb579912b515aee9d0b0a7d95e2c",
+      "eventHash": "1304c8fb7d9124108c0243149ce3d7207da7f56f4b449a3a95cb245c3d11f263"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717358-432",
+      "timestamp": "2026-10-25T09:48:37.358Z",
+      "prevHash": "0c7829872723f89e539f14f3b8f7ead06ef5777e9d3489a7a6dd88d5bd96c921",
+      "eventHash": "41690e92b79e76ecdb80d6505e7153028562eb579912b515aee9d0b0a7d95e2c"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717352-434",
+      "timestamp": "2026-10-25T09:48:37.352Z",
+      "prevHash": "88655fdbc6cc0f484b4a6a7b32a8e20ff423811b8460ed1a9fe05d3c868712b1",
+      "eventHash": "0c7829872723f89e539f14f3b8f7ead06ef5777e9d3489a7a6dd88d5bd96c921"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921717336-741",
+      "timestamp": "2026-10-25T09:48:37.336Z",
+      "prevHash": "5c39ab90bef30c6011eb5a9dc759f630dc270d3e0951a2558b35c47adcfcf859",
+      "eventHash": "88655fdbc6cc0f484b4a6a7b32a8e20ff423811b8460ed1a9fe05d3c868712b1"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792921509006-228",
+      "timestamp": "2026-10-25T09:45:09.006Z",
+      "prevHash": "a185563b5670c5b5830282f39b0f8107d3e37cb34752edfee7b1398d40d8e62b",
+      "eventHash": "5c39ab90bef30c6011eb5a9dc759f630dc270d3e0951a2558b35c47adcfcf859"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792921508995-996",
+      "timestamp": "2026-10-25T09:45:08.995Z",
+      "prevHash": "5a7df82b13e5ec03a49475a82be50b5748e2cb23adb9096ebb834c0f5c314ce1",
+      "eventHash": "a185563b5670c5b5830282f39b0f8107d3e37cb34752edfee7b1398d40d8e62b"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792921508988-102",
+      "timestamp": "2026-10-25T09:45:08.988Z",
+      "prevHash": "aec48ebe8790cf3cf739a680c58fa7e987fd9bcf402f0e855baeaede0e5e5c5c",
+      "eventHash": "5a7df82b13e5ec03a49475a82be50b5748e2cb23adb9096ebb834c0f5c314ce1"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921508979-666",
+      "timestamp": "2026-10-25T09:45:08.979Z",
+      "prevHash": "9007f5f632bdb8cf79a7fec119273b6ff5e72a5b26f57bd24aa66b99762545d6",
+      "eventHash": "aec48ebe8790cf3cf739a680c58fa7e987fd9bcf402f0e855baeaede0e5e5c5c"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921508977-626",
+      "timestamp": "2026-10-25T09:45:08.977Z",
+      "prevHash": "dd587ca852d48f628b126d75032c76b05157060056426c5923246385ec395f0c",
+      "eventHash": "9007f5f632bdb8cf79a7fec119273b6ff5e72a5b26f57bd24aa66b99762545d6"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792921508974-825",
+      "timestamp": "2026-10-25T09:45:08.974Z",
+      "prevHash": "3c44ecb06b4dfda6103a27a5007bf0013fbcc90a9d6479e12e1bfb520016b881",
+      "eventHash": "dd587ca852d48f628b126d75032c76b05157060056426c5923246385ec395f0c"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792921508960-690",
+      "timestamp": "2026-10-25T09:45:08.960Z",
+      "prevHash": "0f214b084268287a8ed17a305334f5a55ca0392d0718b1991a9a1d2f79a7ff4c",
+      "eventHash": "3c44ecb06b4dfda6103a27a5007bf0013fbcc90a9d6479e12e1bfb520016b881"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508957-729",
+      "timestamp": "2026-10-25T09:45:08.957Z",
+      "prevHash": "aac8f828445c645b8dc14b8d077d17d15e510d10dab0cd06ed6b143783090473",
+      "eventHash": "0f214b084268287a8ed17a305334f5a55ca0392d0718b1991a9a1d2f79a7ff4c"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792921508953-279",
+      "timestamp": "2026-10-25T09:45:08.953Z",
+      "prevHash": "0b218e20f4cbe9881b699aa24e1d2eeed87e300c286797785e8e5b0201423de5",
+      "eventHash": "aac8f828445c645b8dc14b8d077d17d15e510d10dab0cd06ed6b143783090473"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792921508950-59",
+      "timestamp": "2026-10-25T09:45:08.950Z",
+      "prevHash": "a5141440749876e785e4ab5af855b8151876bdaeaf908b28d2d9ec2ae23558c4",
+      "eventHash": "0b218e20f4cbe9881b699aa24e1d2eeed87e300c286797785e8e5b0201423de5"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508947-333",
+      "timestamp": "2026-10-25T09:45:08.947Z",
+      "prevHash": "9ef90ea3df139471936e7f4d6f232390cbf72b3f4e4dd5aa2fdf755278d1c656",
+      "eventHash": "a5141440749876e785e4ab5af855b8151876bdaeaf908b28d2d9ec2ae23558c4"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921508943-479",
+      "timestamp": "2026-10-25T09:45:08.943Z",
+      "prevHash": "063ebcecfe322ae1faee09daa9cc7a51469aee88c9a70d9da9b31098eb659893",
+      "eventHash": "9ef90ea3df139471936e7f4d6f232390cbf72b3f4e4dd5aa2fdf755278d1c656"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508940-279",
+      "timestamp": "2026-10-25T09:45:08.940Z",
+      "prevHash": "9277b89fc6947e7b3f06341848a0d227d22e557bc7affe9f7c8f7cbda7562769",
+      "eventHash": "063ebcecfe322ae1faee09daa9cc7a51469aee88c9a70d9da9b31098eb659893"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921508936-724",
+      "timestamp": "2026-10-25T09:45:08.936Z",
+      "prevHash": "c054e9e0c90671593777a101a44eefceafef686e1a3c2f299d3092d66b917a8f",
+      "eventHash": "9277b89fc6947e7b3f06341848a0d227d22e557bc7affe9f7c8f7cbda7562769"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508933-914",
+      "timestamp": "2026-10-25T09:45:08.933Z",
+      "prevHash": "e5553521ab5eb69e32120e31f8b2755939e91a1facb37270cbb784fd56e9f81d",
+      "eventHash": "c054e9e0c90671593777a101a44eefceafef686e1a3c2f299d3092d66b917a8f"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792921508929-134",
+      "timestamp": "2026-10-25T09:45:08.929Z",
+      "prevHash": "06d3993d309dc36398f01d636d893190861f041b8b867eaeb359b82ddc7741bb",
+      "eventHash": "e5553521ab5eb69e32120e31f8b2755939e91a1facb37270cbb784fd56e9f81d"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792921508923-401",
+      "timestamp": "2026-10-25T09:45:08.923Z",
+      "prevHash": "745b6ec8cb08c96afabf90403d6454e809e54be8d176137329e8ce1be6bfea63",
+      "eventHash": "06d3993d309dc36398f01d636d893190861f041b8b867eaeb359b82ddc7741bb"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792921508919-711",
+      "timestamp": "2026-10-25T09:45:08.919Z",
+      "prevHash": "aeac0024659a2d203fab30afab1773372ab12f8965f1579a05b2aa92c48b6b64",
+      "eventHash": "745b6ec8cb08c96afabf90403d6454e809e54be8d176137329e8ce1be6bfea63"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792921508913-148",
+      "timestamp": "2026-10-25T09:45:08.913Z",
+      "prevHash": "84f8ed92aed5808311bc7e278e72042aeb3f266796b16e80ae56d42315c69fc9",
+      "eventHash": "aeac0024659a2d203fab30afab1773372ab12f8965f1579a05b2aa92c48b6b64"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792921508908-520",
+      "timestamp": "2026-10-25T09:45:08.908Z",
+      "prevHash": "32d3be0169719656b93687798d8ed3c14bdd793659b416727916d50f9fe1ec4e",
+      "eventHash": "84f8ed92aed5808311bc7e278e72042aeb3f266796b16e80ae56d42315c69fc9"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921508896",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792921508897-653",
+      "timestamp": "2026-10-25T09:45:08.897Z",
+      "prevHash": "a5900d7bdb81b7bc0718b5d100d3fa460c66734c50a33197cde70691f33773a2",
+      "eventHash": "32d3be0169719656b93687798d8ed3c14bdd793659b416727916d50f9fe1ec4e"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508875-857",
+      "timestamp": "2026-10-25T09:45:08.875Z",
+      "prevHash": "0a9e96b471bbd0d82953941d3a196afc28cb29ab15c6542c2c3889f3888a08ab",
+      "eventHash": "a5900d7bdb81b7bc0718b5d100d3fa460c66734c50a33197cde70691f33773a2"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508870-851",
+      "timestamp": "2026-10-25T09:45:08.870Z",
+      "prevHash": "3113431e09004179edbc5c9f6b5e241ec113776a26d722796d6cea2f7d6b33f5",
+      "eventHash": "0a9e96b471bbd0d82953941d3a196afc28cb29ab15c6542c2c3889f3888a08ab"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921508854-951",
+      "timestamp": "2026-10-25T09:45:08.854Z",
+      "prevHash": "b2be4027db51b27178d0ea760344b96bb36d20ae9015017daa4db6ad57c8466d",
+      "eventHash": "3113431e09004179edbc5c9f6b5e241ec113776a26d722796d6cea2f7d6b33f5"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792921217298-262",
+      "timestamp": "2026-10-25T09:40:17.298Z",
+      "prevHash": "4bb41b70040ec6c105720c53c119aaf150a8b2b791ad9938b6f6f04018a63d07",
+      "eventHash": "b2be4027db51b27178d0ea760344b96bb36d20ae9015017daa4db6ad57c8466d"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792921217284-245",
+      "timestamp": "2026-10-25T09:40:17.284Z",
+      "prevHash": "527a9f55da012bade18500004fffedf700f8feaf83171eec03b58059fe09baa2",
+      "eventHash": "4bb41b70040ec6c105720c53c119aaf150a8b2b791ad9938b6f6f04018a63d07"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792921217265-78",
+      "timestamp": "2026-10-25T09:40:17.265Z",
+      "prevHash": "63c4263c690ca510bf2b08628cc81d7411eb8c046c7add05a4c633fdd9eb7541",
+      "eventHash": "527a9f55da012bade18500004fffedf700f8feaf83171eec03b58059fe09baa2"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921217255-183",
+      "timestamp": "2026-10-25T09:40:17.255Z",
+      "prevHash": "02bb5aaac5753081eea324bd0cdd438c9f94c785242071feb1b9cb723437e27f",
+      "eventHash": "63c4263c690ca510bf2b08628cc81d7411eb8c046c7add05a4c633fdd9eb7541"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921217252-571",
+      "timestamp": "2026-10-25T09:40:17.252Z",
+      "prevHash": "7d1c51c8722b584a162280e2a5b30a6d63d1d5db231cad861682c17dc9727a4e",
+      "eventHash": "02bb5aaac5753081eea324bd0cdd438c9f94c785242071feb1b9cb723437e27f"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792921217249-884",
+      "timestamp": "2026-10-25T09:40:17.249Z",
+      "prevHash": "873b6ab61ebb40fe5f74a5ca23c8ad83058bd99b4e63dc7c23f2aac0502fd814",
+      "eventHash": "7d1c51c8722b584a162280e2a5b30a6d63d1d5db231cad861682c17dc9727a4e"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792921217243-766",
+      "timestamp": "2026-10-25T09:40:17.243Z",
+      "prevHash": "c35e8823b2292b6551b572b5094f6d08446a92b9dd17e183ee193a6450430812",
+      "eventHash": "873b6ab61ebb40fe5f74a5ca23c8ad83058bd99b4e63dc7c23f2aac0502fd814"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217238-468",
+      "timestamp": "2026-10-25T09:40:17.238Z",
+      "prevHash": "9627f758420fa1c9ce4f2dafc0258ddc3e6f1a31046e6a9addb454157c910c2e",
+      "eventHash": "c35e8823b2292b6551b572b5094f6d08446a92b9dd17e183ee193a6450430812"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792921217232-862",
+      "timestamp": "2026-10-25T09:40:17.232Z",
+      "prevHash": "241dc624ad6cc0da216d04780e058f484e984b8593a61a9bea5697ad15f8f16e",
+      "eventHash": "9627f758420fa1c9ce4f2dafc0258ddc3e6f1a31046e6a9addb454157c910c2e"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792921217228-118",
+      "timestamp": "2026-10-25T09:40:17.228Z",
+      "prevHash": "7840eaac3510b07274dcc88755e7a14d1322816f11501fd1d0e871f81e9f3798",
+      "eventHash": "241dc624ad6cc0da216d04780e058f484e984b8593a61a9bea5697ad15f8f16e"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217225-491",
+      "timestamp": "2026-10-25T09:40:17.225Z",
+      "prevHash": "022cd3746b8a3747e3b4eec04bac63487dade1ae5f271bf2eb55f72d441a450f",
+      "eventHash": "7840eaac3510b07274dcc88755e7a14d1322816f11501fd1d0e871f81e9f3798"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921217219-32",
+      "timestamp": "2026-10-25T09:40:17.219Z",
+      "prevHash": "a049c231e3a43fa22ec0bd8aac929edd3b97d64b6ab805a40a53a00500ccda4b",
+      "eventHash": "022cd3746b8a3747e3b4eec04bac63487dade1ae5f271bf2eb55f72d441a450f"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217216-921",
+      "timestamp": "2026-10-25T09:40:17.216Z",
+      "prevHash": "268f46b66a7bebde139b3a4692ee44c8bb764a125ecc308760a7b17200d80413",
+      "eventHash": "a049c231e3a43fa22ec0bd8aac929edd3b97d64b6ab805a40a53a00500ccda4b"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792921217210-808",
+      "timestamp": "2026-10-25T09:40:17.210Z",
+      "prevHash": "c2776b87fc48d5da6cc2693a8b70795caf835ec4640c470be29a5ea3865fdc59",
+      "eventHash": "268f46b66a7bebde139b3a4692ee44c8bb764a125ecc308760a7b17200d80413"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217207-281",
+      "timestamp": "2026-10-25T09:40:17.207Z",
+      "prevHash": "38569f9ca3b79f91f69a0b1e1eb5d525e93f545311da146d58c896cb3fadbde0",
+      "eventHash": "c2776b87fc48d5da6cc2693a8b70795caf835ec4640c470be29a5ea3865fdc59"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792921217201-649",
+      "timestamp": "2026-10-25T09:40:17.201Z",
+      "prevHash": "8c32f308ee86ca108d92159ac4e21454fcef921591c658aae66ae68f7b861c70",
+      "eventHash": "38569f9ca3b79f91f69a0b1e1eb5d525e93f545311da146d58c896cb3fadbde0"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792921217195-795",
+      "timestamp": "2026-10-25T09:40:17.195Z",
+      "prevHash": "781bd3d97bb10d71821818b13cead07218e3c340d7c6462d53a9e6730aff221b",
+      "eventHash": "8c32f308ee86ca108d92159ac4e21454fcef921591c658aae66ae68f7b861c70"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792921217189-551",
+      "timestamp": "2026-10-25T09:40:17.189Z",
+      "prevHash": "c14512786bde7a72b4d500e50afdad20b20bf008f593f2cd7b41e5e18d54b1f5",
+      "eventHash": "781bd3d97bb10d71821818b13cead07218e3c340d7c6462d53a9e6730aff221b"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792921217183-283",
+      "timestamp": "2026-10-25T09:40:17.183Z",
+      "prevHash": "792432826f14493f27b5be9950d8a5d35d9176bb718b920ead3d06d3fc2b2b42",
+      "eventHash": "c14512786bde7a72b4d500e50afdad20b20bf008f593f2cd7b41e5e18d54b1f5"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792921217177-595",
+      "timestamp": "2026-10-25T09:40:17.177Z",
+      "prevHash": "c5e01f8e2211f2a5096d7bbfa52a9c7ac2f22709dacc9f8360970030b3f00b7c",
+      "eventHash": "792432826f14493f27b5be9950d8a5d35d9176bb718b920ead3d06d3fc2b2b42"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792921217164",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792921217165-751",
+      "timestamp": "2026-10-25T09:40:17.165Z",
+      "prevHash": "8786a99094d1b5be5df2c850cb0cf3de3f630f6ed059841f25765e39985b5b3d",
+      "eventHash": "c5e01f8e2211f2a5096d7bbfa52a9c7ac2f22709dacc9f8360970030b3f00b7c"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217147-469",
+      "timestamp": "2026-10-25T09:40:17.147Z",
+      "prevHash": "225156275560a93f5575522883a117092fb0ebaefe6340ce2b7c5d616bbf3a9c",
+      "eventHash": "8786a99094d1b5be5df2c850cb0cf3de3f630f6ed059841f25765e39985b5b3d"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217141-437",
+      "timestamp": "2026-10-25T09:40:17.141Z",
+      "prevHash": "b2542c5794a58ff3816ddebb90a64184e74020169f790cb5c8253159faa7fba0",
+      "eventHash": "225156275560a93f5575522883a117092fb0ebaefe6340ce2b7c5d616bbf3a9c"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792921217121-884",
+      "timestamp": "2026-10-25T09:40:17.121Z",
+      "prevHash": "18a1dd4f0382359a76dea62d1e8dd19ad217bccd602de67e9d16db541a0b6ece",
+      "eventHash": "b2542c5794a58ff3816ddebb90a64184e74020169f790cb5c8253159faa7fba0"
+    },
+    {
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Suspended user attempted API interaction.",
+      "reason": "Account status is SUSPENDED.",
+      "isSuspicious": true,
+      "id": "evt-1792920981302-270",
+      "timestamp": "2026-10-25T09:36:21.302Z",
+      "prevHash": "3d38ea2254469e1a4831eb0a46dab4aa70e0c701957a21a717cf64ad9ff0065c",
+      "eventHash": "18a1dd4f0382359a76dea62d1e8dd19ad217bccd602de67e9d16db541a0b6ece"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Non-administrator attempted to access admin-restricted route: /api/audit",
+      "reason": "ADMINISTRATOR role required.",
+      "isSuspicious": false,
+      "id": "evt-1792920981281-459",
+      "timestamp": "2026-10-25T09:36:21.281Z",
+      "prevHash": "38edbb90c5141b400777535bd0e1971bda723824b69bb49cf1e7acbf77a06fcd",
+      "eventHash": "3d38ea2254469e1a4831eb0a46dab4aa70e0c701957a21a717cf64ad9ff0065c"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Marcus Vance (marcus.vance@trustvault.internal). Effective immediately.",
+      "id": "evt-1792920981265-609",
+      "timestamp": "2026-10-25T09:36:21.265Z",
+      "prevHash": "a965443046951daef1dfb039453f9f07b1ae24db45220f3be8a1959b77051c99",
+      "eventHash": "38edbb90c5141b400777535bd0e1971bda723824b69bb49cf1e7acbf77a06fcd"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792920981253-925",
+      "timestamp": "2026-10-25T09:36:21.253Z",
+      "prevHash": "94808be66befcd61698b84999611d8a3b598c28c1171bb88b6bc07d498b7de1a",
+      "eventHash": "a965443046951daef1dfb039453f9f07b1ae24db45220f3be8a1959b77051c99"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792920981247-691",
+      "timestamp": "2026-10-25T09:36:21.247Z",
+      "prevHash": "40743d674a337199477f695c11b7dd9ed141968940138e26a29952b16e571232",
+      "eventHash": "94808be66befcd61698b84999611d8a3b598c28c1171bb88b6bc07d498b7de1a"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_REVOKED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Revoked access permission for Elena Rostova (elena.rostova@trustvault.internal). Effective immediately.",
+      "id": "evt-1792920981243-823",
+      "timestamp": "2026-10-25T09:36:21.243Z",
+      "prevHash": "fdbe5df0f8ed0844d28206656c09d5a5675173a76e8de072ff13c0726341c7fd",
+      "eventHash": "40743d674a337199477f695c11b7dd9ed141968940138e26a29952b16e571232"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes to document content. Version bumped to 1.2.",
+      "id": "evt-1792920981238-464",
+      "timestamp": "2026-10-25T09:36:21.238Z",
+      "prevHash": "2e2aa566c2df34832e56515356cb2844020e528cdd6c638013affef1c49ee8ee",
+      "eventHash": "fdbe5df0f8ed0844d28206656c09d5a5675173a76e8de072ff13c0726341c7fd"
+    },
+    {
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981229-145",
+      "timestamp": "2026-10-25T09:36:21.229Z",
+      "prevHash": "d2f539a9ccb42733d3c5763c84853d96f82a812ca196bbc00c9fbd22a045903e",
+      "eventHash": "2e2aa566c2df34832e56515356cb2844020e528cdd6c638013affef1c49ee8ee"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to save modifications with READ-only access level.",
+      "reason": "Required permission: EDIT or OWNER. Caller permission: READ.",
+      "isSuspicious": false,
+      "id": "evt-1792920981221-827",
+      "timestamp": "2026-10-25T09:36:21.221Z",
+      "prevHash": "2159df0157a5ab9ece5b1c3c93bda97ce0aecc1d57e37ae70bec9adfe1b23dcb",
+      "eventHash": "d2f539a9ccb42733d3c5763c84853d96f82a812ca196bbc00c9fbd22a045903e"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Attempted to download binary payload without an active grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": true,
+      "id": "evt-1792920981214-4",
+      "timestamp": "2026-10-25T09:36:21.214Z",
+      "prevHash": "36d5fcee2e7d1257c42f9f95743af45f3d2b87420097554433c2d63045b9950b",
+      "eventHash": "2159df0157a5ab9ece5b1c3c93bda97ce0aecc1d57e37ae70bec9adfe1b23dcb"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981209-717",
+      "timestamp": "2026-10-25T09:36:21.209Z",
+      "prevHash": "b53934758eee48de485de91761c447df03cb390b6ad54c91c23fad2fea60d1d0",
+      "eventHash": "36d5fcee2e7d1257c42f9f95743af45f3d2b87420097554433c2d63045b9950b"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Caller attempted to decrypt document content without grant.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792920981201-488",
+      "timestamp": "2026-10-25T09:36:21.201Z",
+      "prevHash": "23a1ed2b38d3f3bb86817f940cdb6d0f16b31d1fc5f344c5073438f9549f53c1",
+      "eventHash": "b53934758eee48de485de91761c447df03cb390b6ad54c91c23fad2fea60d1d0"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981197-416",
+      "timestamp": "2026-10-25T09:36:21.197Z",
+      "prevHash": "3b41bdd749896c7b7f32131ee8f8e82398504ae0882a75732573ab7f3511b647",
+      "eventHash": "23a1ed2b38d3f3bb86817f940cdb6d0f16b31d1fc5f344c5073438f9549f53c1"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Unauthorized attempt to inspect document metadata.",
+      "reason": "No active grant exists for caller identity.",
+      "isSuspicious": false,
+      "id": "evt-1792920981187-57",
+      "timestamp": "2026-10-25T09:36:21.187Z",
+      "prevHash": "fa29511d82b6434c31a03184ff1e3459767bdf4302d455b5eda4c71fc650e81f",
+      "eventHash": "3b41bdd749896c7b7f32131ee8f8e82398504ae0882a75732573ab7f3511b647"
+    },
+    {
+      "actor": {
+        "id": "usr-05",
+        "name": "James Chen",
+        "email": "james.chen@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981179-912",
+      "timestamp": "2026-10-25T09:36:21.179Z",
+      "prevHash": "24b56c4ebcbc3e4098568e0d77335e20aa4efb87666fbe2aca2a0ea3329ad41c",
+      "eventHash": "fa29511d82b6434c31a03184ff1e3459767bdf4302d455b5eda4c71fc650e81f"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under READ authorization.",
+      "id": "evt-1792920981173-176",
+      "timestamp": "2026-10-25T09:36:21.173Z",
+      "prevHash": "615ea9c261354fbd65252fb1afe81db2d644d3aa986c1aaa5d4e8b2ddcfcb479",
+      "eventHash": "24b56c4ebcbc3e4098568e0d77335e20aa4efb87666fbe2aca2a0ea3329ad41c"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted EDIT permission to Marcus Vance (marcus.vance@trustvault.internal).",
+      "id": "evt-1792920981166-608",
+      "timestamp": "2026-10-25T09:36:21.166Z",
+      "prevHash": "34b93e62b5f2bee048da3840bc49108e0b678e7267493f385f50ae4238de95f5",
+      "eventHash": "615ea9c261354fbd65252fb1afe81db2d644d3aa986c1aaa5d4e8b2ddcfcb479"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Granted READ permission to Elena Rostova (elena.rostova@trustvault.internal).",
+      "id": "evt-1792920981160-242",
+      "timestamp": "2026-10-25T09:36:21.160Z",
+      "prevHash": "c70d9b8fa85d3cdcc82c14506508d41c28c1d961acfcc41edbe0e8cc2abe9c33",
+      "eventHash": "34b93e62b5f2bee048da3840bc49108e0b678e7267493f385f50ae4238de95f5"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "id": "evt-1792920981152-296",
+      "timestamp": "2026-10-25T09:36:21.152Z",
+      "prevHash": "187f8786f5e945545f1084ded6a66d1a514c6562fbd78f189bff6bcddd53ed3e",
+      "eventHash": "c70d9b8fa85d3cdcc82c14506508d41c28c1d961acfcc41edbe0e8cc2abe9c33"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Saved changes (Automated test content update). Version bumped to 1.1.",
+      "id": "evt-1792920981140-777",
+      "timestamp": "2026-10-25T09:36:21.140Z",
+      "prevHash": "ce4ea57f5e2b173c41b6f318c664574b87ad23752785e9dd3c495c1aa9489b16",
+      "eventHash": "187f8786f5e945545f1084ded6a66d1a514c6562fbd78f189bff6bcddd53ed3e"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_UPLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-1792920981118",
+      "documentTitle": "Q4 Cryptographic Risk Assessment Test Doc",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "Uploaded new document with Confidential classification. Checksum: sha256:223beb48...",
+      "id": "evt-1792920981119-891",
+      "timestamp": "2026-10-25T09:36:21.119Z",
+      "prevHash": "f23fdd473208d4d0297f740b47f30160fbbadb92702ddfa00657abac21fd8a4d",
+      "eventHash": "ce4ea57f5e2b173c41b6f318c664574b87ad23752785e9dd3c495c1aa9489b16"
+    },
+    {
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981093-106",
+      "timestamp": "2026-10-25T09:36:21.093Z",
+      "prevHash": "36b2ff08e2287e820743c2645c50933c13f3d27974a604b2da6dc903395c5724",
+      "eventHash": "f23fdd473208d4d0297f740b47f30160fbbadb92702ddfa00657abac21fd8a4d"
+    },
+    {
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981080-334",
+      "timestamp": "2026-10-25T09:36:21.080Z",
+      "prevHash": "2d3b239ac08ae32c68ee6c76e7625ab29cb596480f7767f1b4819f27b8f2dbe5",
+      "eventHash": "36b2ff08e2287e820743c2645c50933c13f3d27974a604b2da6dc903395c5724"
+    },
+    {
+      "actor": {
+        "id": "usr-01",
+        "name": "Sarah Connor",
+        "email": "sarah.connor@trustvault.internal",
+        "role": "ADMINISTRATOR"
+      },
+      "action": "USER_LOGIN",
+      "result": "ALLOWED",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node",
+      "details": "User authenticated successfully via credentials.",
+      "id": "evt-1792920981062-190",
+      "timestamp": "2026-10-25T09:36:21.062Z",
+      "prevHash": "c3ceb33e60a6e4e6e295d5103e67730750bcc57d396bcdfd82c1c81142c47bca",
+      "eventHash": "2d3b239ac08ae32c68ee6c76e7625ab29cb596480f7767f1b4819f27b8f2dbe5"
+    },
+    {
+      "id": "evt-006",
+      "timestamp": "2026-10-25T01:24:10Z",
+      "actor": {
+        "id": "usr-06",
+        "name": "David Sterling",
+        "email": "david.sterling@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-02",
+      "documentTitle": "Q4 2026 Strategic M&A Capital Allocation & Valuation Model",
+      "ipAddress": "198.51.100.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130.0",
+      "details": "Suspended user account attempted direct document payload download.",
+      "reason": "Account status is SUSPENDED. Authentication policy violation.",
+      "isSuspicious": true,
+      "prevHash": "50ae96845ca43af3dee4b022547682914734301624c48be20bfdb6d9b71f9e8d",
+      "eventHash": "c3ceb33e60a6e4e6e295d5103e67730750bcc57d396bcdfd82c1c81142c47bca"
+    },
+    {
+      "id": "evt-005",
+      "timestamp": "2026-10-25T00:52:18Z",
+      "actor": {
+        "id": "usr-03",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_EDIT",
+      "result": "ALLOWED",
+      "documentId": "doc-01",
+      "documentTitle": "SOC-2 Type II Annual Security Certification & Attestation Report",
+      "ipAddress": "192.168.1.144",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1.15",
+      "details": "Saved updated remediation milestones. Document version bumped to 2.4.",
+      "prevHash": "2d5e573f97315758e9f468ec983e67fb6d20a494c163375191676d9cb5458795",
+      "eventHash": "50ae96845ca43af3dee4b022547682914734301624c48be20bfdb6d9b71f9e8d"
+    },
+    {
+      "id": "evt-004",
+      "timestamp": "2026-10-24T23:14:02Z",
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "DOCUMENT_DOWNLOAD",
+      "result": "ALLOWED",
+      "documentId": "doc-01",
+      "documentTitle": "SOC-2 Type II Annual Security Certification & Attestation Report",
+      "ipAddress": "10.0.4.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Firefox/131.0",
+      "details": "Exported verified copy under authorized READ grant.",
+      "prevHash": "68341564fbd9e5a97a43ff86761fb3350cdcfc080d1b030be5afde75404113cd",
+      "eventHash": "2d5e573f97315758e9f468ec983e67fb6d20a494c163375191676d9cb5458795"
+    },
+    {
+      "id": "evt-003",
+      "timestamp": "2026-10-24T22:30:19Z",
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "ACCESS_GRANTED",
+      "result": "ALLOWED",
+      "documentId": "doc-01",
+      "documentTitle": "SOC-2 Type II Annual Security Certification & Attestation Report",
+      "ipAddress": "192.168.1.102",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/129.0",
+      "details": "Granted EDIT permission to Marcus Vance with expiration 2026-11-30.",
+      "prevHash": "741393d099cd41e90ba51ae0e7120c21b4aaa4c8106e6ea8b376220c8735bb91",
+      "eventHash": "68341564fbd9e5a97a43ff86761fb3350cdcfc080d1b030be5afde75404113cd"
+    },
+    {
+      "id": "evt-002",
+      "timestamp": "2026-10-24T21:05:44Z",
+      "actor": {
+        "id": "usr-04",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@trustvault.internal",
+        "role": "VIEWER"
+      },
+      "action": "ACCESS_DENIED",
+      "result": "DENIED",
+      "documentId": "doc-01",
+      "documentTitle": "SOC-2 Type II Annual Security Certification & Attestation Report",
+      "ipAddress": "10.0.4.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Firefox/131.0",
+      "details": "Attempted to perform HTTP PUT to modify document contents without EDIT grant.",
+      "reason": "Insufficient permission. Required: EDIT, Caller Grant: READ.",
+      "isSuspicious": false,
+      "prevHash": "3bc31c79dc00b58cbb9bbb211b798c14dcfda5bc160a1ef139a989f34ca29fe1",
+      "eventHash": "741393d099cd41e90ba51ae0e7120c21b4aaa4c8106e6ea8b376220c8735bb91"
+    },
+    {
+      "id": "evt-001",
+      "timestamp": "2026-10-24T18:15:00Z",
+      "actor": {
+        "id": "usr-02",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@trustvault.internal",
+        "role": "OWNER"
+      },
+      "action": "DOCUMENT_VIEW",
+      "result": "ALLOWED",
+      "documentId": "doc-03",
+      "documentTitle": "Cryptographic Key Management Standard & HSM Rotation Protocol",
+      "ipAddress": "192.168.1.102",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/129.0",
+      "details": "Decrypted and rendered preview under OWNER authorization.",
+      "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "eventHash": "3bc31c79dc00b58cbb9bbb211b798c14dcfda5bc160a1ef139a989f34ca29fe1"
+    }
+  ]
+}

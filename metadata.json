@@ -1,0 +1,8 @@
+{
+  "name": "TrustVault",
+  "description": "A secure, role-based document management platform featuring granular access control, audit trails, and streamlined document sharing workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

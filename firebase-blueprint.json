@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Authorized user account and role in TrustVault",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "format": "email", "maxLength": 150 },
+        "role": { "type": "string", "enum": ["ADMINISTRATOR", "OWNER", "VIEWER"] },
+        "department": { "type": "string", "maxLength": 100 },
+        "status": { "type": "string", "enum": ["ACTIVE", "SUSPENDED"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "email", "role", "department", "status"]
+    },
+    "Document": {
+      "title": "Document",
+      "description": "Metadata and security attributes for encrypted stored documents",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string", "maxLength": 255 },
+        "description": { "type": "string", "maxLength": 2000 },
+        "category": {
+          "type": "string",
+          "enum": ["Financial", "Legal", "Security Audit", "Engineering", "Executive", "Compliance", "HR Policy"]
+        },
+        "classification": {
+          "type": "string",
+          "enum": ["Confidential", "Restricted", "Internal"]
+        },
+        "mimeType": { "type": "string", "maxLength": 100 },
+        "sizeBytes": { "type": "number" },
+        "ownerId": { "type": "string" },
+        "ownerName": { "type": "string", "maxLength": 100 },
+        "ownerEmail": { "type": "string", "format": "email", "maxLength": 150 },
+        "version": { "type": "string", "maxLength": 20 },
+        "checksum": { "type": "string", "maxLength": 128 },
+        "fileExtension": { "type": "string", "maxLength": 20 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "title", "category", "classification", "ownerId", "checksum"]
+    },
+    "AccessGrant": {
+      "title": "AccessGrant",
+      "description": "Granular document-level permission grant",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "documentId": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string", "maxLength": 100 },
+        "userEmail": { "type": "string", "format": "email", "maxLength": 150 },
+        "permission": { "type": "string", "enum": ["READ", "EDIT"] },
+        "grantedById": { "type": "string" },
+        "grantedByName": { "type": "string", "maxLength": 100 },
+        "grantedAt": { "type": "string", "format": "date-time" },
+        "expiresAt": { "type": "string" }
+      },
+      "required": ["id", "documentId", "userId", "permission", "grantedById", "grantedAt"]
+    },
+    "AuditEvent": {
+      "title": "AuditEvent",
+      "description": "Cryptographically chained audit trail entry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "actorId": { "type": "string" },
+        "actorName": { "type": "string", "maxLength": 100 },
+        "actorEmail": { "type": "string", "format": "email", "maxLength": 150 },
+        "actorRole": { "type": "string", "enum": ["ADMINISTRATOR", "OWNER", "VIEWER"] },
+        "action": { "type": "string", "maxLength": 50 },
+        "result": { "type": "string", "enum": ["ALLOWED", "DENIED"] },
+        "documentId": { "type": "string" },
+        "documentTitle": { "type": "string", "maxLength": 255 },
+        "details": { "type": "string", "maxLength": 2000 },
+        "reason": { "type": "string", "maxLength": 500 },
+        "previousHash": { "type": "string", "maxLength": 64 },
+        "hash": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["id", "timestamp", "actorId", "action", "result", "hash"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles and RBAC role assignments"
+    },
+    "/documents/{documentId}": {
+      "schema": "Document",
+      "description": "Encrypted document records and access policies"
+    },
+    "/documents/{documentId}/grants/{grantId}": {
+      "schema": "AccessGrant",
+      "description": "Document-specific access authorizations"
+    },
+    "/audit_events/{eventId}": {
+      "schema": "AuditEvent",
+      "description": "Tamper-evident audit log ledger"
+    }
+  }
+}

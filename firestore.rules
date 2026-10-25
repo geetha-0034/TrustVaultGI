@@ -1,0 +1,149 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Default-deny catch-all (Global Safety Net)
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper Functions
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isCurrentUser(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.email == 'geetha03inaganti@gmail.com' ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    // Validation Helpers
+    function isValidUser(data) {
+      return data.keys().hasAll(['id', 'name', 'email', 'role', 'department', 'status']) &&
+        data.keys().hasOnly(['id', 'name', 'email', 'role', 'department', 'status', 'createdAt', 'updatedAt']) &&
+        data.id is string && isValidId(data.id) &&
+        data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+        data.email is string && data.email.size() > 3 && data.email.size() <= 150 &&
+        data.role in ['ADMINISTRATOR', 'OWNER', 'VIEWER'] &&
+        data.department is string && data.department.size() <= 100 &&
+        data.status in ['ACTIVE', 'SUSPENDED'];
+    }
+
+    function isValidDocument(data) {
+      return data.keys().hasAll(['id', 'title', 'category', 'classification', 'ownerId', 'checksum']) &&
+        data.keys().hasOnly(['id', 'title', 'description', 'category', 'classification', 'mimeType', 'sizeBytes', 'ownerId', 'ownerName', 'ownerEmail', 'version', 'checksum', 'fileExtension', 'createdAt', 'updatedAt']) &&
+        data.id is string && isValidId(data.id) &&
+        data.title is string && data.title.size() > 0 && data.title.size() <= 255 &&
+        data.category in ['Financial', 'Legal', 'Security Audit', 'Engineering', 'Executive', 'Compliance', 'HR Policy'] &&
+        data.classification in ['Confidential', 'Restricted', 'Internal'] &&
+        data.ownerId is string && isValidId(data.ownerId) &&
+        data.checksum is string && data.checksum.size() <= 128;
+    }
+
+    function isValidAccessGrant(data) {
+      return data.keys().hasAll(['id', 'documentId', 'userId', 'permission', 'grantedById', 'grantedAt']) &&
+        data.keys().hasOnly(['id', 'documentId', 'userId', 'userName', 'userEmail', 'permission', 'grantedById', 'grantedByName', 'grantedAt', 'expiresAt']) &&
+        data.id is string && isValidId(data.id) &&
+        data.documentId is string && isValidId(data.documentId) &&
+        data.userId is string && isValidId(data.userId) &&
+        data.permission in ['READ', 'EDIT'] &&
+        data.grantedById is string && isValidId(data.grantedById);
+    }
+
+    function isValidAuditEvent(data) {
+      return data.keys().hasAll(['id', 'timestamp', 'actorId', 'action', 'result', 'hash']) &&
+        data.keys().hasOnly(['id', 'timestamp', 'actorId', 'actorName', 'actorEmail', 'actorRole', 'action', 'result', 'documentId', 'documentTitle', 'details', 'reason', 'previousHash', 'hash']) &&
+        data.id is string && isValidId(data.id) &&
+        data.actorId is string && isValidId(data.actorId) &&
+        data.action is string && data.action.size() <= 50 &&
+        data.result in ['ALLOWED', 'DENIED'] &&
+        data.hash is string && data.hash.size() <= 64;
+    }
+
+    // Admins collection
+    match /admins/{adminId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // Users collection
+    match /users/{userId} {
+      allow get: if isSignedIn() && (isCurrentUser(userId) || isAdmin());
+      allow list: if isAdmin();
+      allow create: if isSignedIn() && (isCurrentUser(userId) || isAdmin()) && isValidUser(incoming());
+      allow update: if isSignedIn() && (
+        isAdmin() ||
+        (isCurrentUser(userId) &&
+         isValidUser(incoming()) &&
+         incoming().role == existing().role &&
+         incoming().id == existing().id &&
+         incoming().diff(existing()).affectedKeys().hasOnly(['name', 'department', 'updatedAt']))
+      );
+      allow delete: if isAdmin();
+    }
+
+    // Documents collection
+    match /documents/{documentId} {
+      allow get: if isSignedIn() && (
+        resource.data.ownerId == request.auth.uid ||
+        isAdmin() ||
+        exists(/databases/$(database)/documents/documents/$(documentId)/grants/$(request.auth.uid))
+      );
+      allow list: if isSignedIn();
+      allow create: if isSignedIn() && isValidDocument(incoming()) && incoming().ownerId == request.auth.uid;
+      allow update: if isSignedIn() && isValidDocument(incoming()) && (
+        (existing().ownerId == request.auth.uid && incoming().ownerId == existing().ownerId && incoming().id == existing().id) ||
+        isAdmin() ||
+        (get(/databases/$(database)/documents/documents/$(documentId)/grants/$(request.auth.uid)).data.permission == 'EDIT' &&
+         incoming().diff(existing()).affectedKeys().hasOnly(['title', 'description', 'category', 'classification', 'version', 'checksum', 'updatedAt']))
+      );
+      allow delete: if isSignedIn() && (existing().ownerId == request.auth.uid || isAdmin());
+
+      // Grants Subcollection
+      match /grants/{grantId} {
+        allow get, list: if isSignedIn() && (
+          get(/databases/$(database)/documents/documents/$(documentId)).data.ownerId == request.auth.uid ||
+          isAdmin() ||
+          grantId == request.auth.uid
+        );
+        allow create, update: if isSignedIn() && isValidAccessGrant(incoming()) && (
+          get(/databases/$(database)/documents/documents/$(documentId)).data.ownerId == request.auth.uid ||
+          isAdmin()
+        );
+        allow delete: if isSignedIn() && (
+          get(/databases/$(database)/documents/documents/$(documentId)).data.ownerId == request.auth.uid ||
+          isAdmin()
+        );
+      }
+    }
+
+    // Audit Events collection (Append-only by authenticated users, readable by admins)
+    match /audit_events/{eventId} {
+      allow get, list: if isAdmin();
+      allow create: if isSignedIn() && isValidAuditEvent(incoming());
+      allow update, delete: if false; // Append-only immutable log
+    }
+
+    // Connection testing
+    match /test/connection {
+      allow read: if true;
+    }
+  }
+}
